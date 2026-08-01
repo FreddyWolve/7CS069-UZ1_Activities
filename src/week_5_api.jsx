@@ -4,7 +4,7 @@ function Week5Api() {
   const [apiData, setApiData] = useState(null);
 
   useEffect(() => {
-    // Fetches from your live XAMPP server
+    // Fetches from live XAMPP server
     fetch("http://localhost/week_5_api/index.php")
       .then((response) => response.json())
       .then((data) => setApiData(data))
