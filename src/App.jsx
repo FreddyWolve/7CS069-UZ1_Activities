@@ -1,3 +1,4 @@
+import Week5Api from "./week_5_api";
 import { useState } from "react";
 
 function Square({ value, onSquareClick }) {
@@ -48,6 +49,7 @@ function Board({ xIsNext, squares, onPlay }) {
         <Square value={squares[7]} onSquareClick={() => handleClick(7)} />
         <Square value={squares[8]} onSquareClick={() => handleClick(8)} />
       </div>
+      <Week5Api />
     </>
   );
 }
