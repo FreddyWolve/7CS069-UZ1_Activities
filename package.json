@@ -1,0 +1,20 @@
+{
+  "name": "workshop6",
+  "version": "1.0.0",
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "node --test calculator.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreddyWolve/7CS069-UZ1_Activities.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FreddyWolve/7CS069-UZ1_Activities/issues"
+  },
+  "homepage": "https://github.com/FreddyWolve/7CS069-UZ1_Activities#readme"
+}
